@@ -59,7 +59,7 @@ def stream_response(message, history):
             references.append((title or link, link))
 
     # detect simple greeting messages to avoid adding references
-    greeting_pattern = re.compile(r"^\s*(hi|hello|hey|greetings|good (morning|afternoon|evening))[,!\.\s]*$", re.IGNORECASE)
+    greeting_pattern = re.compile(r"^\s*(hi|helo|hey|greetings|good (morning|afternoon|evening))[,!\.\s]*$", re.IGNORECASE)
     is_greeting = bool(greeting_pattern.match(message or ""))
 
 
