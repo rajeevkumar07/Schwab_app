@@ -1,0 +1,10 @@
+{
+    "llm_model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "embeddings_model": "text-embedding-3-large",
+    "num_results": 5,
+    "chunk_size": 5000,
+    "chunk_overlap": 200,
+    "data_path": "data/stock_news.json",
+    "chroma_path": "chroma_db"
+}

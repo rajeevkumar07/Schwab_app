@@ -1,0 +1,7 @@
+# Virtual environment
+.venv/
+# ChromaDB
+chroma_db/
+# Environment variables
+.env
+.env.*
