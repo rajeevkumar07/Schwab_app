@@ -6,5 +6,6 @@ Solution steps:
 
 Steps to Run app 
     1. Create a python virtual environment, activate and install all the requirements.txt using pip install -r requirements.txt
+    2. Create a .env file and add OPENAI_API_KEY= <"your api key">
     2. RUN python /src/data_ingestion.py
     3. RUN python app.py
