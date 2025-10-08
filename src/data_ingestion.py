@@ -4,6 +4,8 @@ from utils.models import get_embeddings_model
 from langchain_chroma import Chroma
 from utils.document_processing import document_processing
 from uuid import uuid4
+
+# import the .env file
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -35,6 +37,8 @@ text_splitter = RecursiveCharacterTextSplitter(
     is_separator_regex=False,
 )
 
+# creating the chunks
+chunks = text_splitter.split_documents(docs)
 
 # creating unique ID's
 uuids = [str(uuid4()) for _ in range(len(chunks))]
