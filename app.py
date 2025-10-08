@@ -4,8 +4,6 @@ import gradio as gr
 import re
 import json
 import yaml
-
-# import the .env file
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -22,7 +20,6 @@ CHROMA_PATH = config["chroma_path"]
 
 # initiate the embeddings model
 embeddings_model = get_embeddings_model(config["embeddings_model"])
-
 # initiate the model
 llm = get_llm_model(config["llm_model"], config["temperature"])
 
