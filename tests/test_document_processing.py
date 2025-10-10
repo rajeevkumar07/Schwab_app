@@ -13,5 +13,9 @@ class TestDocumentProcessing(unittest.TestCase):
         docs = document_processing("data/stock_news.json")
         self.assertEqual(len(docs), 138)
 
+    def test_document_processing_sample_data(self):
+        docs = document_processing("data/test_data.json")
+        self.assertEqual(len(docs), 4)
+
 if __name__ == "__main__":
     unittest.main()
