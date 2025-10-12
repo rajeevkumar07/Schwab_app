@@ -1,0 +1,17 @@
+2025-10-12 09:49:56,375 - __main__ - INFO - Starting NewsBot application
+2025-10-12 09:49:56,375 - __main__ - INFO - Initializing NewsBot
+2025-10-12 09:49:56,375 - __main__ - INFO - Configuration loaded successfully: ['llm_model', 'temperature', 'embeddings_model', 'num_results', 'chunk_size', 'chunk_overlap', 'data_path', 'chroma_path']
+2025-10-12 09:49:56,376 - __main__ - INFO - Prompt template loaded successfully
+2025-10-12 09:49:56,465 - __main__ - INFO - Embeddings model initialized successfully
+2025-10-12 09:49:56,471 - __main__ - INFO - LLM model initialized successfully
+2025-10-12 09:49:56,480 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-12 09:49:56,503 - __main__ - INFO - Vector store created successfully
+2025-10-12 09:49:56,503 - __main__ - INFO - Retriever created successfully
+2025-10-12 09:49:56,533 - __main__ - INFO - Gradio app created successfully
+2025-10-12 09:49:56,533 - __main__ - INFO - NewsBot initialization completed successfully
+2025-10-12 09:49:56,533 - __main__ - INFO - NewsBot created successfully, launching...
+2025-10-12 09:49:56,576 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2025-10-12 09:49:56,582 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-10-12 09:49:56,617 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-10-12 09:49:56,663 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-10-12 09:49:56,825 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
